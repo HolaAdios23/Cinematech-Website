@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;	
+	background-image: url('../resources/loginbackground.jpeg');
+	background-size: cover;
+	/* background-position: center; */
+}
+
+h1, p{
+		margin: 3px;
+	padding: 3px;
+}
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: arial;
+	
+	
+}
+p{
+	font-size: 15px;
+	font-weight: regular;
+	font-family: arial;
+	color: #555;
+	
+}
+.split-container {
+
+	display: flex;
+	height: 100%;
+	
+}
+
+.split-left{
+	flex: 1;
+	
+}
+
+.split-right{
+	flex: 1;
+	/* background-color: blue; */
+	padding: 50px 50px 50px 50px; 
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.registration-container{
+	width: 100%;
+	height: 100%;
+	/* background-color: yellow;  */
+}
+
+.register-title
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.input-container{
+	position: relative;
+	margin-top: 15px;
+}
+
+
+.date-container{
+	margin-top: 15px;
+}
+.date-container input{
+	width: 60%;
+	padding: 13px;
+	border: 1px solid #480c88;
+	border-radius: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.input-container i {
+	position: absolute;
+	margin-left:14px;
+	margin-top: 14px;
+	color: #555;
+}
+
+.radio-container{
+	position:relative;
+	font-family: arial;
+	margin-top: 15px;
+}
+
+.radio-container input{
+	width: 20px;
+	height: 20px;
+}
+.input-container input{
+	width: 60%;
+	padding: 13px;
+	padding-left: 40px; 
+	font-size: 14px;
+	border: 1px solid #480c88;
+	border-radius: 40px;
+	box-sizing: border-box;
+	
+}
+.signup-container button{
+	background-color: #7d1ae6;
+	width: 150px;
+	height: 50px;
+	margin: 10px;
+	color:white;
+	border:none;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 20px;
+	
+}
+.signup-container button:hover{
+	background-color: #480c88;
+}
+
+.signup-container{
+	
+	width: 60%;
+	padding: 13px;
+	display:flex;
+	font-family: arial;
+	font-size: 15px;
+	color:black;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
